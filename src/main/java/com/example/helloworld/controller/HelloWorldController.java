@@ -24,6 +24,7 @@ public class HelloWorldController {
     }
     @GetMapping("/bugFix3")
     public String getInfoOnBugs3(){
+        
         return "bug got fixed3";
     }
 }
