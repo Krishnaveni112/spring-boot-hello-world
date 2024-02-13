@@ -19,4 +19,17 @@ public class HelloWorldController {
         return "bug got fixed";
     }
 
+    @GetMapping("/bugFix1")
+    public String getInfoOnBugs1(){
+        return "bug got fixed";
+    }
+    @GetMapping("/bugFix3")
+    public String getInfoOnBugs3(){
+        return "bug got fixed3";
+    }
+    @GetMapping("/bugFix4")
+    public String getInfoOnBugs4(){
+        return "bug got fixed3";
+    }
+
 }
